@@ -1,0 +1,54 @@
+#titulo {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(164, 96, 228);
+    text-align: center;
+    font-size: 70px;
+}
+
+.botao_div {
+    display: flex;
+    justify-content: center;
+}
+
+#botao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: rgb(146, 5, 146);
+    width: 400px;
+    background-color: rgb(223, 236, 33);
+}
+
+#botao:hover {
+    background-color: chartreuse;
+    animation: tremer .2s;
+}
+
+@keyframes tremer {
+    0% {
+        margin-left: 0;
+    }
+
+    ;
+
+    25% {
+        margin-left: 7px;
+    }
+
+    50% {
+        margin-left: 0
+    }
+
+    ;
+
+    75% {
+        margin-left: -7px;
+    }
+
+    ;
+
+    100% {
+        margin-left: 0
+    }
+
+    ;
+}
